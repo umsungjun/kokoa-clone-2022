@@ -1,0 +1,46 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 40px;
+  opacity: 90%;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+  position: relative;
+}
+
+.gear-dot {
+  display: flex;
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 3px;
+  position: absolute;
+  left: 68px;
+}
+
+.gear-dot__More {
+  display: flex;
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 3px;
+  position: absolute;
+  left: 120px;
+}
+
+.user-component__text i {
+  margin-left: 5px;
+  color: red;
+}
